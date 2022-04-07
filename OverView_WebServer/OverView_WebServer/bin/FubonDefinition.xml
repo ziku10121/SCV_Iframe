@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FubonDefinition</name>
+    </assembly>
+    <members>
+        <member name="T:FubonDefinition.ActCatMerge">
+            <summary> 帳戶類別彙總 </summary>
+        </member>
+        <member name="P:FubonDefinition.ActCatMerge.Datadt">
+            <summary> 資料日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.ActCatMerge.View">
+            <summary> 識別值 </summary>
+        </member>
+        <member name="F:FubonDefinition.ActCatMerge.Dims">
+            <summary> 維度類別 </summary>
+        </member>
+        <member name="F:FubonDefinition.ActCatMerge.UnitTimeType">
+            <summary> 時間類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.ActCatMerge.UnitYM">
+            <summary> 時間識別值 </summary>
+        </member>
+        <member name="P:FubonDefinition.ActCatMerge.ActType">
+            <summary> 帳戶類別 </summary>
+        </member>
+        <member name="F:FubonDefinition.ActCatMerge.TotalCus">
+            <summary> 總客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.ActCatMerge.InventoryCus">
+            <summary> 庫存客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.ActCatMerge.TotalAsset">
+            <summary> 總資產（台幣） </summary>
+        </member>
+        <member name="P:FubonDefinition.ActCatMerge.SalesStaffno">
+            <summary> 營業員員工編號 </summary>
+        </member>
+        <member name="P:FubonDefinition.ActCatMerge.Firmno">
+            <summary> 分公司碼 </summary>
+        </member>
+        <member name="P:FubonDefinition.ActCatMerge.Areano">
+            <summary> 分區 </summary>
+        </member>
+        <member name="P:FubonDefinition.ActCatMerge.Deptno">
+            <summary> 分部 </summary>
+        </member>
+        <member name="F:FubonDefinition.ActCatMerge.Updt">
+            <summary> 更新日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.ActCatMerge.Upuser">
+            <summary> 更新人員 </summary>
+        </member>
+        <member name="T:FubonDefinition.AssetCode">
+            <summary> 資產代碼定義檔 </summary>
+        </member>
+        <member name="P:FubonDefinition.AssetCode.ActType">
+            <summary> 中台帳戶類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.AssetCode.InstrumentType">
+            <summary> 中台商品類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.AssetCode.HSAssetCode">
+            <summary> 異質系統資產代碼 </summary>
+        </member>
+        <member name="F:FubonDefinition.AssetCode.Updt">
+            <summary> 更新日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.AssetCode.Upuser">
+            <summary> 更新人員 </summary>
+        </member>
+        <member name="T:FubonDefinition.ComCatMerge">
+            <summary> 商品類別彙總 </summary>
+        </member>
+        <member name="P:FubonDefinition.ComCatMerge.Datadt">
+            <summary> 資料日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.ComCatMerge.View">
+            <summary> 識別值 </summary>
+        </member>
+        <member name="F:FubonDefinition.ComCatMerge.Dims">
+            <summary> 維度類別 </summary>
+        </member>
+        <member name="F:FubonDefinition.ComCatMerge.UnitTimeType">
+            <summary> 時間類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.ComCatMerge.UnitYM">
+            <summary> 時間識別值 </summary>
+        </member>
+        <member name="P:FubonDefinition.ComCatMerge.ActType">
+            <summary> 帳戶類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.ComCatMerge.InstrumentType">
+            <summary> 商品類別 </summary>
+        </member>
+        <member name="F:FubonDefinition.ComCatMerge.TotalCus">
+            <summary> 總客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.ComCatMerge.EffectCus">
+            <summary> 有效客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.ComCatMerge.InventoryCus">
+            <summary> 庫存客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.ComCatMerge.ActiveCus">
+            <summary> 實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.ComCatMerge.TotalAsset">
+            <summary> 資產（台幣） </summary>
+        </member>
+        <member name="P:FubonDefinition.ComCatMerge.SalesStaffno">
+            <summary> 營業員員工編號 </summary>
+        </member>
+        <member name="P:FubonDefinition.ComCatMerge.Firmno">
+            <summary> 分公司碼 </summary>
+        </member>
+        <member name="P:FubonDefinition.ComCatMerge.Areano">
+            <summary> 分區 </summary>
+        </member>
+        <member name="P:FubonDefinition.ComCatMerge.Deptno">
+            <summary> 分部 </summary>
+        </member>
+        <member name="F:FubonDefinition.ComCatMerge.Updt">
+            <summary> 更新日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.ComCatMerge.Upuser">
+            <summary> 更新人員 </summary>
+        </member>
+        <member name="T:FubonDefinition.CusComActv">
+            <summary> 客群各商品活動狀態檔 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusComActv.Datadt">
+            <summary> 資料日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusComActv.View">
+            <summary> 識別值 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.Dims">
+            <summary> 維度類別 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.UnitTimeType">
+            <summary> 時間類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusComActv.UnitYM">
+            <summary> 時間識別值 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusComActv.CusGrpType">
+            <summary> 客群類別 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.SpotActiveCnt">
+            <summary> 現貨實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.DtActiveCnt">
+            <summary> 當沖實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.MgnTraActiveCnt">
+            <summary> 融資實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.FutActiveCnt">
+            <summary> 期貨實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.LendStkActiveCnt">
+            <summary> 借券實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.FStkActiveCnt">
+            <summary> 海外股票實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.FBondActiveCnt">
+            <summary> 海外債實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.StrucActiveCnt">
+            <summary> 結構型商品實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.FundActiveCnt">
+            <summary> 基金實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.LInsActiveCnt">
+            <summary> 壽險實動客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.UUseLendActiveCnt">
+            <summary> 不限用途實動客戶數 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusComActv.SalesStaffno">
+            <summary> 營業員員工編號 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusComActv.Firmno">
+            <summary> 分公司碼 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusComActv.Areano">
+            <summary> 分區 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusComActv.Deptno">
+            <summary> 分部 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusComActv.Updt">
+            <summary> 更新日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusComActv.Upuser">
+            <summary> 更新人員 </summary>
+        </member>
+        <member name="T:FubonDefinition.CusGrpDetails">
+            <summary> 客群資料明細 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpDetails.Datadt">
+            <summary> 資料日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpDetails.Firmno">
+            <summary> 分公司碼 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpDetails.Idno">
+            <summary> 身分證號 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpDetails.Actno">
+            <summary> 客戶帳號 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpDetails.SalesStaffno">
+            <summary> 營業員員工編號 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpDetails.ActType">
+            <summary> 帳戶類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpDetails.CusGrpType">
+            <summary> 客群類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpDetails.LYCusGrpType">
+            <summary> 去年客群類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpDetails.YearBFLastCusGrpType">
+            <summary> 前年客群類別 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.TotalAsset">
+            <summary> 今年總資產 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.AccTrdAmt">
+            <summary> 今年累積交易量 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.AccCtb">
+            <summary> 今年累積貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.AccCtbMng">
+            <summary> 今年累積經紀貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.AccCtbFM">
+            <summary> 今年累積財管貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.AvgMTrdAmt">
+            <summary> 今年月均交易量 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.AvgMCtb">
+            <summary> 今年月均貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.AvgMCtbMng">
+            <summary> 今年月均經紀貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.AvgMCtbFM">
+            <summary> 今年月均財管貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.SpotFlag">
+            <summary> 現貨註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.DtFlag">
+            <summary> 當沖註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.MgnTraFlag">
+            <summary> 融資註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.FutFlag">
+            <summary> 期貨註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.LendStkFlag">
+            <summary> 借券註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.FStkFlag">
+            <summary> 海外股票註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.FBondFlag">
+            <summary> 海外債註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.StrucFlag">
+            <summary> 結構型註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.FundFlag">
+            <summary> 基金註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.LInsFlag">
+            <summary> 壽險註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.UUseLendFlag">
+            <summary> 不限用途註記 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpDetails.Updt">
+            <summary> 更新日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpDetails.Upuser">
+            <summary> 更新人員 </summary>
+        </member>
+        <member name="T:FubonDefinition.CusGrpMerge">
+            <summary> 客群資料總覽 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpMerge.Datadt">
+            <summary> 資料日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpMerge.View">
+            <summary> 識別值 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.Dims">
+            <summary> 維度類別 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.UnitTimeType">
+            <summary> 時間類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpMerge.UnitYM">
+            <summary> 時間識別值 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpMerge.CusGrpType">
+            <summary> 客群類別 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusCnt">
+            <summary> 去年定格客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.YTDNewCusCnt">
+            <summary> 今年新增客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.NowCusCnt">
+            <summary> 現有客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.YTDCtbCusCnt">
+            <summary> 今年有貢獻度累積客戶數 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.TotalAsset">
+            <summary> 總資產 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AccTrdAmt">
+            <summary> 今年累積交易量 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AccCtb">
+            <summary> 今年累積貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AccCtbMng">
+            <summary> 今年累積經紀貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AccCtbFM">
+            <summary> 今年累積財管貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AvgMTrdAmt">
+            <summary> 月均交易量 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AvgMCtb">
+            <summary> 月均貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AvgMCtbMng">
+            <summary> 月均經紀貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AvgMCtbFM">
+            <summary> 月均財管貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AvgHTotalAsset">
+            <summary> 戶均總資產 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AvgHMTrdAmt">
+            <summary> 戶均月均交易量 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AvgHMCtb">
+            <summary> 戶均月均貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AvgHMCtbMng">
+            <summary> 戶均月均經紀貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.AvgHMCtbFM">
+            <summary> 戶均月均財管貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusTotalAsset">
+            <summary> 去年定格客戶總資產 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusTrdAmt">
+            <summary> 去年定格客戶交易量 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusCtb">
+            <summary> 去年定格客戶貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusCtbMng">
+            <summary> 去年定格客戶經紀貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusCtbFM">
+            <summary> 去年定格客戶財管貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusAvgMTrdAmt">
+            <summary> 去年定格客戶月均交易量 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusAvgMCtb">
+            <summary> 去年定格客戶月均貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusAvgMCtbMng">
+            <summary> 去年定格客戶月均經紀貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusAvgMCtbFM">
+            <summary> 去年定格客戶月均財管貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusAvgHTotalAsset">
+            <summary> 去年定格客戶戶均總資產 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusAvgHMTrdAmt">
+            <summary> 去年定格客戶戶均月均交易量 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusAvgHMCtb">
+            <summary> 去年定格客戶戶均月均貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusAvgHMCtbMng">
+            <summary> 去年定格客戶戶均月均經紀貢獻度 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.LYLblCusAvgHMCtbFM">
+            <summary> 去年定格客戶戶均月均財管貢獻度 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpMerge.SalesStaffno">
+            <summary> 營業員員工編號 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpMerge.Firmno">
+            <summary> 分公司碼 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpMerge.Areano">
+            <summary> 分區 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpMerge.Deptno">
+            <summary> 分部 </summary>
+        </member>
+        <member name="F:FubonDefinition.CusGrpMerge.Updt">
+            <summary> 更新日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.CusGrpMerge.Upuser">
+            <summary> 更新人員 </summary>
+        </member>
+        <member name="F:FubonDefinition.Definition.FubonDefQFunc.DEFAULT">
+            <summary> 初始值、未定義 </summary>
+        </member>
+        <member name="F:FubonDefinition.Definition.FubonDefQFunc.ACT_CAT_MRG">
+            <summary> 帳戶類別彙總 </summary>
+        </member>
+        <member name="F:FubonDefinition.Definition.FubonDefQFunc.ASSET_CODE">
+            <summary> 資產代碼定義檔 </summary>
+        </member>
+        <member name="F:FubonDefinition.Definition.FubonDefQFunc.COM_CAT_MRG">
+            <summary> 商品類別彙總 </summary>
+        </member>
+        <member name="F:FubonDefinition.Definition.FubonDefQFunc.CGRP_INS_ACTV">
+            <summary> 客群各商品活動狀態檔 </summary>
+        </member>
+        <member name="F:FubonDefinition.Definition.FubonDefQFunc.CGRP_DTL">
+            <summary> 客群資料明細 </summary>
+        </member>
+        <member name="F:FubonDefinition.Definition.FubonDefQFunc.CGRP_MRG">
+            <summary> 客群資料總覽 </summary>
+        </member>
+        <member name="F:FubonDefinition.Definition.FubonDefQFunc.FUT_FILLQTY_MRG">
+            <summary> 期貨成交口數彙總 </summary>
+        </member>
+        <member name="F:FubonDefinition.Definition.FubonDefQFunc.REV_CODE">
+            <summary> 貢獻度代碼定義檔 </summary>
+        </member>
+        <member name="T:FubonDefinition.FUTFillQtyMerge">
+            <summary> 期貨成交口數彙總 </summary>
+        </member>
+        <member name="P:FubonDefinition.FUTFillQtyMerge.Datadt">
+            <summary> 資料日期 </summary>
+        </member>
+        <member name="F:FubonDefinition.FUTFillQtyMerge.UnitTimeType">
+            <summary> 時間類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.FUTFillQtyMerge.UnitYM">
+            <summary> 時間識別值 </summary>
+        </member>
+        <member name="P:FubonDefinition.FUTFillQtyMerge.Firmno">
+            <summary> 分公司碼 </summary>
+        </member>
+        <member name="P:FubonDefinition.FUTFillQtyMerge.Idno">
+            <summary> 身分證號 </summary>
+        </member>
+        <member name="P:FubonDefinition.FUTFillQtyMerge.Actno">
+            <summary> 客戶帳號 </summary>
+        </member>
+        <member name="P:FubonDefinition.FUTFillQtyMerge.ActType">
+            <summary> 帳戶類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.FUTFillQtyMerge.InstrumentType">
+            <summary> 商品類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.FUTFillQtyMerge.CusGrpType">
+            <summary> 客群類別 </summary>
+        </member>
+        <member name="F:FubonDefinition.FUTFillQtyMerge.AccFillQty">
+            <summary> 累積成交口數 </summary>
+        </member>
+        <member name="F:FubonDefinition.FUTFillQtyMerge.AccBuyQty">
+            <summary> 累積買進口數 </summary>
+        </member>
+        <member name="F:FubonDefinition.FUTFillQtyMerge.AccSellQty">
+            <summary> 累積賣出口數 </summary>
+        </member>
+        <member name="F:FubonDefinition.FUTFillQtyMerge.Updt">
+            <summary> 更新日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.FUTFillQtyMerge.Upuser">
+            <summary> 更新人員 </summary>
+        </member>
+        <member name="T:FubonDefinition.RevenueCode">
+            <summary> 貢獻度代碼定義檔 </summary>
+        </member>
+        <member name="P:FubonDefinition.RevenueCode.ActType">
+            <summary> 中台帳戶類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.RevenueCode.InstrumentType">
+            <summary> 中台商品類別 </summary>
+        </member>
+        <member name="P:FubonDefinition.RevenueCode.HSRevenueCode">
+            <summary> 異質系統貢獻度代碼 </summary>
+        </member>
+        <member name="F:FubonDefinition.RevenueCode.Updt">
+            <summary> 更新日期 </summary>
+        </member>
+        <member name="P:FubonDefinition.RevenueCode.Upuser">
+            <summary> 更新人員 </summary>
+        </member>
+    </members>
+</doc>

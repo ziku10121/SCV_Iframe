@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OverView_WebServer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SQLConnectStr" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Password=systex.6214;Persist Security Info=True;User ID=sa;Initial Catalog=CRMDemo_MSCRM;Data Source=10.10.53.205</Value>
+    </Setting>
+    <Setting Name="DB_FDIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=10.10.53.215;Database=FDIP;User ID=SGTP;password=systex.6214;Trusted_Connection=False;Asynchronous Processing=true;Failover Partner=10.10.56.242;</Value>
+    </Setting>
+    <Setting Name="DB_SYSDEF" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=10.10.53.215;Database=FDIP_MonitorSystem;User ID=SGTP;password=systex.6214;Trusted_Connection=False;Asynchronous Processing=true;Failover Partner=10.10.56.242;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

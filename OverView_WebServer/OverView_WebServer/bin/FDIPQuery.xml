@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FDIPQuery</name>
+    </assembly>
+    <members>
+        <member name="F:FDIPQuery.FDQReply.QResult">
+            <summary> FDIPDefinition - QueryReply 回傳給前端的物件 </summary>
+        </member>
+        <member name="F:FDIPQuery.FDQReply.ClassName">
+            <summary> 目前查詢的類別名稱 </summary>
+        </member>
+        <member name="F:FDIPQuery.FDQReply.ToSSMList">
+            <summary> List: SQLAdapter之下的底層各方法內的SSM </summary>
+        </member>
+        <member name="F:FDIPQuery.FDQReply.ToLogList">
+            <summary> List: SQLAdapter之下的底層各方法內的LOG </summary>
+        </member>
+        <member name="T:FDIPQuery.ToSSM">
+            <summary> SQLAdapter之下的底層各方法內的SSM </summary>
+        </member>
+        <member name="T:FDIPQuery.ToLOG">
+            <summary> SQLAdapter之下的底層各方法內的LOG </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QSubstituteStaff">
+            <summary> 員工代理人設定 F_PT_AE_STAFF </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QActClsCat">
+            <summary> 銷戶類別定義 F_DEF_CAT_ACTCLS </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QSysAct">
+            <summary> 使用者帳號資料 SD_DEF_BIF_SYSACT </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QTemplate">
+            <summary> 模板，要把有註解 //TemplateTodo 的地方改掉 </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QActCat">
+            <summary> 帳戶類別定義 F_DEF_CAT_ACT </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QActStat">
+            <summary> 帳戶狀態日檔 F_ACT_STAT_ACT_D </summary>
+            <summary> 帳戶狀態月檔 F_ACT_STAT_ACT_M </summary>
+            <summary> 帳戶狀態年檔 F_ACT_STAT_ACT_Y </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QAct">
+            <summary> 帳戶基本資料 F_PT_BIF_ACT </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QErrMap">
+            <summary> 錯誤代碼對應表 SD_DEF_BIF_ERRCODE </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QCusGrpCat">
+            <summary> 客群類別定義 F_DEF_CAT_CGRP </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QFutRlzMrg">
+            <summary> 期貨沖銷彙總 F_OFF_MRG_FUT </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QFutRlzDtl">
+            <summary> 期貨沖銷明細檔 F_OFF_DTL_FUT </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QFutInvMrg">
+            <summary> 期貨庫存彙總 F_INV_MRG_FUT </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QFutInvDtl">
+            <summary> 期貨庫存明細檔 F_INV_DTL_FUT </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QStkInvMrg">
+            <summary> 股票庫存彙總 F_INV_MRG_STK </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QStkInvDtl">
+            <summary> 股票庫存明細檔 F_INV_DTL_STK </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QStaffLyr">
+            <summary> 員工階層表 F_PT_LYR_STAFF </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QStaff">
+            <summary> 員工基本資料 F_PT_BIF_STAFF </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QFirm">
+            <summary> 組織分公司定義 F_DEF_BIF_FIRM </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QCus">
+            <summary> 客戶基本資料 F_PT_BIF_CUS </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QCurrCat">
+            <summary> 幣別定義 F_DEF_CAT_CURR </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QComCat">
+            <summary> 商品類別定義 F_DEF_CAT_COM </summary>
+        </member>
+        <member name="T:FDIPQuery.Features.QSales">
+            <summary> 營業員基本資料 F_SLS_BIF_SLS </summary>
+        </member>
+        <member name="E:FDIPQuery.QueryProcessor.QueryProcessor.OnFDQOThrowLog">
+            <summary> 讓使用FDQO的外層，可接LOG </summary>
+        </member>
+    </members>
+</doc>

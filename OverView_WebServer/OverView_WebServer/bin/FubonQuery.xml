@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FubonQuery</name>
+    </assembly>
+    <members>
+        <member name="T:FubonQuery.Features.QActCatMrg">
+            <summary> 帳戶類別彙總 C_CRM_MRG_ACT_CAT </summary>
+        </member>
+        <member name="T:FubonQuery.Features.QAssetCode">
+            <summary> 資產代碼定義檔 C_DEF_BIF_ASSET_CODE </summary>
+        </member>
+        <member name="T:FubonQuery.Features.QComCatMrg">
+            <summary> 商品類別彙總 C_CRM_MRG_COM_CAT </summary>
+        </member>
+        <member name="T:FubonQuery.Features.QCusComActv">
+            <summary> 客群各商品活動狀態檔 C_CRM_MRG_CGRP_ACTV </summary>
+        </member>
+        <member name="T:FubonQuery.Features.QCusGrpDtl">
+            <summary> 客群資料明細 C_CRM_DTL_CGRP </summary>
+        </member>
+        <member name="T:FubonQuery.Features.QCusGrpMrg">
+            <summary> 客群資料總覽 C_CRM_MRG_CGRP </summary>
+        </member>
+        <member name="T:FubonQuery.Features.QFutFQtyMrg">
+            <summary> 期貨成交口數彙總 C_CRM_MRG_FUT_FQTY </summary>
+        </member>
+        <member name="T:FubonQuery.Features.QRevCode">
+            <summary> 貢獻度代碼定義檔 C_DEF_BIF_REV_CODE </summary>
+        </member>
+    </members>
+</doc>

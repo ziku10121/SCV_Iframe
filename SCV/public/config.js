@@ -1,0 +1,1 @@
+var SCVAPIUrl = 'https://crmdemo.crmdev.com:8082/';
